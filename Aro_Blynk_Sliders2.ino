@@ -8,9 +8,9 @@
 #define BLYNK_PRINT Serial
 Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 
-char auth[] = "X5_YyVt5XTy6JTN00k3gyxCrn9uRGH3u";
-char ssid[] = "Alkitran Wi-Fi";
-char pwd[] = "1103062871";
+char auth[] = "Código Blynk";
+char ssid[] = "Red Wi-Fi";
+char pwd[] = "Password";
 
 int ValorR = 0;
 int ValorG = 0;
