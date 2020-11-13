@@ -8,9 +8,9 @@
 #define BLYNK_PRINT Serial
 Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 
-char auth[] = "X5_YyVt5XTy6JTN00k3gyxCrn9uRGH3u";
-char ssid[] = "Alkitran Wi-Fi";
-char pwd[] = "1103062871";
+char auth[] = "Your Blynk Auth Code";
+char ssid[] = "Wi-Fi";
+char pwd[] = "Wi-Fi Password";
 
 int msg = 0; //Esta variable va a guardar el estado que se quiere enviar. 1 = Happy, 2 = Sad, 3 = Cebra.
 
